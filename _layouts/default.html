@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="bg">
+      <div class="bg__a"></div>
+      <div class="bg__b"></div>
+      <div class="bg__grid"></div>
+    </div>
+
+    {% include header.html %}
+
+    <main class="main">
+      <div class="wrap">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
+
