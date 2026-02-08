@@ -3,9 +3,11 @@ tagline: "Human-AI Micro Laboratory"
 description: "자동화, 생산성 앱, 게임 제작까지. 사람들에게 편리함과 즐거움을 주는 실험 기록."
 
 # GitHub Pages 배포 시 url/baseurl은 저장소 설정에 맞게 조정하면 좋습니다.
-# 예) url: "https://USERNAME.github.io", baseurl: "/REPO"
-url: ""
-baseurl: ""
+# 예) 이 저장소(project pages)라면:
+#   url: "https://tristam7920.github.io"
+#   baseurl: "/website"
+url: "https://tristam7920.github.io"
+baseurl: "/website"
 
 lang: "ko-KR"
 timezone: "Asia/Seoul"
@@ -38,4 +40,3 @@ exclude:
   - Gemfile.lock
   - vendor
   - README.md
-
